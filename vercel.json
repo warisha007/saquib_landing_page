@@ -1,6 +1,6 @@
 {
   "framework": "vite",
-  "installCommand": "cd landing_page && npm install",
-  "buildCommand": "cd landing_page && npm run build",
+  "installCommand": "npm install --prefix landing_page",
+  "buildCommand": "npm run build --prefix landing_page",
   "outputDirectory": "landing_page/dist"
 }
